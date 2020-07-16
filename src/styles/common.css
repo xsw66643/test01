@@ -1,0 +1,29 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+}
+table th {
+    text-align: center;
+    font-weight: normal;
+}
+table th, table td {
+    padding: 2px 6px;
+    border: 2px solid #e0e0e0;
+}
+a {
+    text-decoration: none;
+}
+input:focus, textarea:focus {
+    outline:  none;
+}
+
+textarea {
+    resize: none;
+}
